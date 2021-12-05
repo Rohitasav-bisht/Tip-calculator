@@ -1,0 +1,88 @@
+
+*{
+    margin: 0px;
+
+}
+p {
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+h1{
+    display: flex;
+    font-size: 48px;
+    color:white;
+    background-color: rgb(20, 95, 52); 
+    justify-content: center; 
+    border-radius: 35px 35px 0 0;
+}
+
+#container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color:#be3255;
+}
+#first-input{
+    background-color: white;
+    height: 78%;
+    border-radius:10% 10% 7% 7%;;
+    
+}
+button{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px 200px;
+    background: #AD133A;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+  }
+}
+#btn{
+    font-size: 20px;
+    width: 145px;
+    height: 35px;
+    color: white;
+    background-color: red;
+}
+#bill,#ppl{
+    width: 50%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 22px;
+    margin-top: 12px;
+}
+#drp_dwn{
+    width: 50%;
+    margin-left: 22px;
+    margin-top: 12px;
+    padding: 5px 5px 8px 8px;
+
+}
+#totalTip {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  #totalTip:before {
+    content: "Tip amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }
+  
+
+  
+  #totalTip small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+  }
